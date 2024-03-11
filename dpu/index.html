@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DPU Ciência de Dados</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 249, 249);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .images-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .images-row img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 2px;
+  }
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .box {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    cursor: pointer; /* Ensures the cursor changes to a hand pointer */
+    text-decoration: none; /* Removes underline from text */
+    color: black; /* Ensures text color is always black */
+    font-size: 18px; /* Initial font size */
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+    font-size: 20px; /* Increased font size on hover */
+  }
+  
+  .box a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Ensures text color is always black */
+    width: 100%; /* Ensures the link fills the box for clickable area */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="images-row">
+    <img src="rbcip.png" alt="RBCIP">
+    <img src="dpu.png" alt="DPU">
+    <img src="pnud.png" alt="PNUD">
+  </div>
+  <div class="title">Ciência de Dados na DPU</div>
+  <img src="dpu2030.png" alt="DPU 2030" style="max-width: 10%; height: auto;">
+  <div class="boxes">
+    <a href="http://10.2.21.20:8502/" class="box" target="_blank">CD 1<br/><br/>Similaridade PAJs</a>
+    <a href="http://172.28.97.125:9001/" class="box" target="_blank">CD 2<br/><br/>Jurisprudência</a>
+    <a href="https://172.28.97.125:8003/" class="box" target="_blank">CD 3<br/><br/>Sincronização STF</a>
+  </div>
+</div>
+<div class="footer">
+  © 2024 RBCIP | DPU | PNUD
+</div>
+
+</body>
+</html>

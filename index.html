@@ -42,7 +42,7 @@
   }
   .box {
     width: 300px;
-    height: 200px;
+    height: 100px;
     border-radius: 20px;
     background-color: #f0f0f0;
     display: flex;
@@ -79,6 +79,16 @@
     background-color: #f0f0f0;
     font-size: 16px;
   }
+  .box_title {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
 </style>
 </head>
 <body>
@@ -89,10 +99,19 @@
    </div>
   <div class="title">Ciência de Dados na DPU</div>
   <img src="images/dpu2030.png" alt="DPU 2030" style="max-width: 10%; height: auto;">
+  <br/>
   <div class="boxes">
+    <div class="box_title">Aplicativos:</div>
     <a href="http://172.28.97.125:8502/" class="box" target="_blank">CD 1<br/><br/>Similaridade PAJs</a>
     <a href="http://172.28.97.125:8002/" class="box" target="_blank">CD 2<br/><br/>Jurisprudência</a>
     <a href="https://172.28.97.125:8003/" class="box" target="_blank">CD 3<br/><br/>Sincronização STF</a>
+  </div>
+  <div style="margin-top:-30px;"></div>
+  <div class="boxes">
+    <div class="box_title">Dashboards:</div>
+    <a href="http://172.28.97.125:3000/public/dashboard/ea1c101d-e0c3-4686-97b0-72469329ee70" class="box" target="_blank">PAJs</a>
+    <a href="http://172.28.97.125:3000/public/dashboard/385d2e7d-00b2-46fe-849f-b42cc9a055a4" class="box" target="_blank">Processos Judiciais</a>
+    <a href="http://172.28.97.125:3000/public/dashboard/b6c599ea-bc88-4335-9f53-ec55b30f414d" class="box" target="_blank">Assistidos</a>
   </div>
   <p><u>Observação:</u> Links só funcionam na rede interna da DPU. Caso o Link não funcione, entre em contato imediatamente com a Coordenção.</p>
 </div>

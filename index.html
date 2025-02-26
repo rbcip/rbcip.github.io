@@ -9,23 +9,20 @@
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    
   }
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     height: 100%;
+    padding-top: 20px;
   }
-  .images-row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  .logo {
     margin-bottom: 20px;
   }
-  .images-row img {
+  .logo img {
     max-width: 600px;
     height: auto;
     border-radius: 2px;
@@ -92,13 +89,11 @@
 </style>
 </head>
 <body>
-
 <div class="container">
-  <div class="images-row">
+  <div class="logo">
     <img src="images/cigpr.png" alt="CIG-PR">
-   </div>
+  </div>
   <div class="title">Centro Integrado de Gestão e Governança (CIG)<br/>do Estado do Paraná<br/><br/><i>Eixo Dívida Ativa</i></div>
-<!--   <img src="images/cigpr.png" alt="CIG PR" style="max-width: 10%; height: auto;"> -->
   <br/>
   <div class="boxes">
     <div class="box_title">Dashboards:</div>
@@ -108,17 +103,9 @@
     <a href="http://18.228.156.106:3000/public/dashboard/2c7f5605-fa7e-41b4-aa2d-cfaa54e78c0a" class="box" target="_blank">Dívida Ativa - Contratos</a>
   </div>
   <div style="margin-top:-30px;"></div>
-<!--   <div class="boxes">
-    <div class="box_title">Aplicativos:</div>
-    <a href="http://172.28.97.125:3000/public/dashboard/ea1c101d-e0c3-4686-97b0-72469329ee70" class="box" target="_blank">PAJs</a>
-    <a href="http://172.28.97.125:3000/public/dashboard/385d2e7d-00b2-46fe-849f-b42cc9a055a4" class="box" target="_blank">Processos Judiciais</a>
-    <a href="http://172.28.97.125:3000/public/dashboard/b6c599ea-bc88-4335-9f53-ec55b30f414d" class="box" target="_blank">Assistidos</a>
-  </div> -->
-<!--   <p><u>Observação:</u> Caso não tenha usuário e senha para acesso aos aplicativos, entre em contato imediatamente com a Coordenação.</p> -->
 </div>
 <div class="footer">
   © 2025 RBCIP | FAPEC | CIG-PR
 </div>
-
 </body>
 </html>

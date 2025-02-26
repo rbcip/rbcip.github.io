@@ -19,16 +19,32 @@
     height: 100%;
     padding-top: 20px;
   }
-  .logo {
+  .top-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 20px;
   }
-  .logo img {
+  .top-logos img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 2px;
+  }
+  .cig-logo {
+    margin: 20px 0;
+  }
+  .cig-logo img {
     max-width: 600px;
     height: auto;
     border-radius: 2px;
   }
   .title {
     font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-size: 36px;
+    font-style: italic;
     margin-bottom: 20px;
   }
   .boxes {
@@ -90,11 +106,24 @@
 </head>
 <body>
 <div class="container">
-  <div class="logo">
+  <!-- First: FAPEC and RBCIP logos side by side -->
+  <div class="top-logos">
+    <img src="images/fapec.png" alt="FAPEC">
+    <img src="images/rbcip.png" alt="RBCIP">
+  </div>
+  
+  <!-- Second: CIG title text -->
+  <div class="title">Centro Integrado de Gestão e Governança (CIG)<br/>do Estado do Paraná</div>
+  
+  <!-- Third: CIG-PR logo -->
+  <div class="cig-logo">
     <img src="images/cigpr.png" alt="CIG-PR">
   </div>
-  <div class="title">Centro Integrado de Gestão e Governança (CIG)<br/>do Estado do Paraná<br/><br/><i>Eixo Dívida Ativa</i></div>
-  <br/>
+  
+  <!-- Fourth: Subtitle -->
+  <div class="subtitle">Eixo Dívida Ativa</div>
+  
+  <!-- Dashboards section -->
   <div class="boxes">
     <div class="box_title">Dashboards:</div>
     <a href="http://18.228.156.106:3000/public/dashboard/1b0d97d0-07dd-47b3-8783-c1e856adb935" class="box" target="_blank">Visão Geral do PR</a>

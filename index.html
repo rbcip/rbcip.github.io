@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RBCIP | FAPEC | CIG-PR - Dívida Ativa</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 249, 249);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .images-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .images-row img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 2px;
+  }
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .box {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+  }
+  .box_title {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="images-row">
+    <img src="images/logos-head-fixo.png" alt="RBCIP">
+   </div>
+  <div class="title">Centro Integrado de Gestão e Governança (CIG) do Estado do Paraná - Eixo Dívida Ativa</div>
+  <img src="images/cigpr.png" alt="CIG PR" style="max-width: 10%; height: auto;">
+  <br/>
+  <div class="boxes">
+    <div class="box_title">Dashboards:</div>
+    <a href="http://18.228.156.106:3000/public/dashboard/1b0d97d0-07dd-47b3-8783-c1e856adb935" class="box" target="_blank">Dívida Ativa - Paraná</a>
+    <a href="http://18.228.156.106:3000/public/dashboard/8aeb3f33-a87e-441f-a09f-fd9f459962a8" class="box" target="_blank">Dívida Ativa - Por UF</a>
+    <a href="http://18.228.156.106:3000/public/dashboard/d9127aee-8693-4e35-8d6f-220b727b1639" class="box" target="_blank">Dívida Ativa - Licitações</a>
+    <a href="http://18.228.156.106:3000/public/dashboard/2c7f5605-fa7e-41b4-aa2d-cfaa54e78c0a" class="box" target="_blank">Dívida Ativa - Contratos</a>
+  </div>
+  <div style="margin-top:-30px;"></div>
+<!--   <div class="boxes">
+    <div class="box_title">Aplicativos:</div>
+    <a href="http://172.28.97.125:3000/public/dashboard/ea1c101d-e0c3-4686-97b0-72469329ee70" class="box" target="_blank">PAJs</a>
+    <a href="http://172.28.97.125:3000/public/dashboard/385d2e7d-00b2-46fe-849f-b42cc9a055a4" class="box" target="_blank">Processos Judiciais</a>
+    <a href="http://172.28.97.125:3000/public/dashboard/b6c599ea-bc88-4335-9f53-ec55b30f414d" class="box" target="_blank">Assistidos</a>
+  </div> -->
+  <p><u>Observação:</u> Caso não tenha usuário e senha para acesso aos aplicativos, entre em contato imediatamente com a Coordenação.</p>
+</div>
+<div class="footer">
+  © 2025 RBCIP | FAPEC | CIG-PR
+</div>
+
+</body>
+</html>
